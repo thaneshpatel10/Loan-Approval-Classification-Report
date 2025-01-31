@@ -19,7 +19,7 @@ The dataset was partitioned into training (75%) and testing (25%) sets to ensure
 Our analysis followed a structured approach:
 
 1.  **Exploratory Data Analysis (EDA):**
-2.  ** there were no missing values and dulicates in the dataset and also the data types were correct and correlation was found between the numerical features
+2.  ** there were no missing values and duplicates in the dataset and also the data types were correct and correlation was found between the numerical features
 3.  **Data Preprocessing:**
     *   **Multicollinearity Mitigation:**  Identified and addressed high correlation between `person_emp_exp` and `person_age` by removing `person_emp_exp` and 'person_age' *
     *   **Categorical Feature Encoding:** Applied one-hot encoding to convert categorical variables (`person_gender`, `person_education`, `person_home_ownership`, `loan_intent`, `previous_loan_defaults_on_file`) into a suitable numerical format.
